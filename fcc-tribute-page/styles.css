@@ -1,0 +1,247 @@
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+    /* #region normalize.css */
+    /* Document
+    ========================================================================== */
+
+    /**
+    * 1. Correct the line height in all browsers.
+    * 2. Prevent adjustments of font size after orientation changes in iOS.
+    */
+
+    html {
+        line-height: 1.15; /* 1 */
+        -webkit-text-size-adjust: 100%; /* 2 */
+    }
+    
+    /* Sections
+        ========================================================================== */
+    
+    /**
+    * Remove the margin in all browsers.
+    */
+    
+    body {
+        margin: 0;
+    }
+    
+    /**
+    * Render the `main` element consistently in IE.
+    */
+    
+    main {
+        display: block;
+    }
+    
+    /**
+    * Correct the font size and margin on `h1` elements within `section` and
+    * `article` contexts in Chrome, Firefox, and Safari.
+    */
+    
+    h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+    }
+    
+    /* Grouping content
+        ========================================================================== */
+    
+    /**
+    * 1. Add the correct box sizing in Firefox.
+    * 2. Show the overflow in Edge and IE.
+    */
+    
+    hr {
+        box-sizing: content-box; /* 1 */
+        height: 0; /* 1 */
+        overflow: visible; /* 2 */
+    }
+    
+    /**
+    * 1. Correct the inheritance and scaling of font size in all browsers.
+    * 2. Correct the odd `em` font sizing in all browsers.
+    */
+    
+    pre {
+        font-family: monospace, monospace; /* 1 */
+        font-size: 1em; /* 2 */
+    }
+    
+    /* Text-level semantics
+        ========================================================================== */
+    
+    /**
+    * Remove the gray background on active links in IE 10.
+    */
+    
+    a {
+        background-color: transparent;
+    }
+    
+    /**
+    * 1. Remove the bottom border in Chrome 57-
+    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+    */
+    
+    abbr[title] {
+        border-bottom: none; /* 1 */
+        text-decoration: underline; /* 2 */
+        text-decoration: underline dotted; /* 2 */
+    }
+    
+    /**
+    * Add the correct font weight in Chrome, Edge, and Safari.
+    */
+    
+    b,
+    strong {
+        font-weight: bolder;
+    }
+    
+    /**
+    * 1. Correct the inheritance and scaling of font size in all browsers.
+    * 2. Correct the odd `em` font sizing in all browsers.
+    */
+    
+    code,
+    kbd,
+    samp {
+        font-family: monospace, monospace; /* 1 */
+        font-size: 1em; /* 2 */
+    }
+    
+    /**
+    * Add the correct font size in all browsers.
+    */
+    
+    small {
+        font-size: 80%;
+    }
+    
+    /**
+    * Prevent `sub` and `sup` elements from affecting the line height in
+    * all browsers.
+    */
+    
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+    }
+    
+    sub {
+        bottom: -0.25em;
+    }
+    
+    sup {
+        top: -0.5em;
+    }
+    
+    /* Embedded content
+        ========================================================================== */
+    
+    /**
+    * Remove the border on images inside links in IE 10.
+    */
+    
+    img {
+        border-style: none;
+    }
+
+    /* Interactive
+    ========================================================================== */
+
+    /*
+    * Add the correct display in Edge, IE 10+, and Firefox.
+    */
+
+    details {
+        display: block;
+    }
+    
+    /*
+    * Add the correct display in all browsers.
+    */
+    
+    summary {
+        display: list-item;
+    }
+    
+    /* Misc
+        ========================================================================== */
+    
+    /**
+    * Add the correct display in IE 10+.
+    */
+    
+    template {
+        display: none;
+    }
+    
+    /**
+    * Add the correct display in IE 10.
+    */
+    
+    [hidden] {
+        display: none;
+    }
+/* #endregion */
+
+/*      
+ * MY CODE BELOW ------------------------------------------------
+ */
+
+
+html {
+    background-color: #ffecea;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+a:visited {
+    color: purple;
+}
+#main {
+    display: grid;
+    grid-template-columns: minmax(auto, 1024px);
+    place-items: center;
+    width: 100%;
+}
+#title-div {
+    text-align: center;
+}
+#title {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 400%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#subtitle {
+    margin-top: .5em;
+}
+
+.content-heading {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.content {
+}
+
+#img-div {
+    width: 96%;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
+#image-caption {
+    text-align: right;
+}
+
+#tribute-info {
+    margin: 2%;
+}
+.content {
+    margin: 2%;
+}
