@@ -200,13 +200,17 @@ html {
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 }
+body {
+    display: grid;
+    justify-content: center;
+}
 a:visited {
     color: purple;
 }
 #main {
     display: grid;
-    grid-template-columns: minmax(auto, 1024px);
-    place-items: center;
+    grid-template-columns: minmax(0, 1024px);
+    place-items: center center;
     width: 100%;
 }
 #title-div {
